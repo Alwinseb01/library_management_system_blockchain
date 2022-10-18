@@ -1,4 +1,4 @@
-pragma solidity ^0.4.8;
+pragma solidity ^0.4.0;
 
 import "./helper_contracts/strings.sol";
 import "./helper_contracts/StringLib.sol";

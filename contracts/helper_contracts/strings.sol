@@ -1,4 +1,4 @@
-pragma solidity ^0.4.8;
+pragma solidity ^0.4.0;
 
 /*
  * @title String & slice utility library for Solidity contracts.
@@ -35,11 +35,11 @@ pragma solidity ^0.4.8;
  *      `s.splitNew('.')` leaves s unmodified, and returns two values
  *      corresponding to the left and right parts of the string.
  */
-library strings {
-    struct slice {
-        uint _len;
-        uint _ptr;
-    }
+// library strings {
+//     struct slice {
+//         uint _len;
+//         uint _ptr;
+//     }
 
     function memcpy(uint dest, uint src, uint len) private {
         // Copy word-length chunks while possible
